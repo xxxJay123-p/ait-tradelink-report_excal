@@ -5,6 +5,7 @@ with open('index.html', 'r') as file:
     html_data = file.read()
 
 def parse_html_data(html_data):
+ 
     # Parse the HTML data using BeautifulSoup
     soup = BeautifulSoup(html_data, 'html.parser')
 
