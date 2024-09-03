@@ -24,3 +24,4 @@ with open('edi_transactions.csv', 'w', newline='') as csvfile:
     writer.writerows(data)
 
 print("CSV file saved: edi_transactions.csv")
+
