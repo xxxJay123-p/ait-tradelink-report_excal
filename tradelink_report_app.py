@@ -6,8 +6,9 @@ import os
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton, QCheckBox, QMessageBox
-from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QFont
+from PyQt5.QtCore import Qt, QUrl
+from PyQt5.QtGui import QFont, QCursor, QIcon
+from PyQt5.Qt import QDesktopServices
 
 class DragDropWidget(QLineEdit):
     def __init__(self):
@@ -38,6 +39,7 @@ class CSVGeneratorApp(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Tradelink Statement Helper || By Jay")
+        self.setWindowIcon(QIcon('app_icon.ico'))  # Set the window icon
         self.setFixedSize(600, 400)
 
         central_widget = QWidget()
@@ -166,7 +168,7 @@ class CSVGeneratorApp(QMainWindow):
                 continue
 
             # Extract transaction ID
-            transaction_id_match = re.search(r'\((5A39KJEA[A-Z0-9]+)\)', item_description)
+            transaction_id_match = re.search(r'\(([A-Z0-9]A39KJEA00[A-Z0-9]+)\)', item_description)
             if not transaction_id_match:
                 continue
             transaction_id = transaction_id_match.group(1)

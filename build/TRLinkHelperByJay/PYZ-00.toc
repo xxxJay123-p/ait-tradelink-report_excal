@@ -2,6 +2,7 @@
  [('PyQt5',
    'C:\\Tools\\Python\\Lib\\site-packages\\PyQt5\\__init__.py',
    'PYMODULE'),
+  ('PyQt5.Qt5', '-', 'PYMODULE'),
   ('__future__', 'C:\\Tools\\Python\\Lib\\__future__.py', 'PYMODULE'),
   ('_colorize', 'C:\\Tools\\Python\\Lib\\_colorize.py', 'PYMODULE'),
   ('_compat_pickle', 'C:\\Tools\\Python\\Lib\\_compat_pickle.py', 'PYMODULE'),
