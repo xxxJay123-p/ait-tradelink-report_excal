@@ -71,7 +71,7 @@ Developed by [xxxJay123](https://github.com/xxxJay123), this tool streamlines tr
 
 ### Additional Features
 - **Language Toggle**: Switch between English and Chinese using the top-right button.
-- **Help Guide**: Click "Help Guide" to open the online documentation (replace `https://your-gitbook-url.com/trlinkhelper` with your actual URL).
+- **Help Guide**: Click "Help Guide" to open the online documentation
 - **ESC Button**: Click "ESC" to exit the application.
 - **Error Logging**: Check `trlink_helper.log` for detailed processing logs.
 
