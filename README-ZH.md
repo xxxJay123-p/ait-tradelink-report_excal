@@ -25,7 +25,7 @@ TRLinkHelper 是一款基於 Python 的圖形用戶界面應用程序，旨在�
 1. 克隆或下載倉庫：
    ```bash
    git clone https://github.com/xxxJay123-p/ait-tradelink-report_excal.git
-   cd trlinkhelper
+   cd ait-tradelink-report_excal
    ```
 2. 安裝依賴項：
    ```bash
@@ -42,7 +42,7 @@ TRLinkHelper 是一款基於 Python 的圖形用戶界面應用程序，旨在�
 3. 確保 `trlinkhelper.ico` 文件位於項目目錄中（可選，用於 Windows 圖標顯示）。
 4. 運行應用程序：
    ```bash
-   python trlink_helper.py
+   python TRLinkHelper_v3.1.1.py
    ```
 
 ## 使用指南
