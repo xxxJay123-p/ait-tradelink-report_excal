@@ -717,7 +717,7 @@ class TRLinkHelperApp:
             self.output_path.set(filename)
     
     def open_help(self):
-        help_url = "https://your-gitbook-url.com/trlinkhelper"
+        help_url = "https://xxxjay123-p.gitbook.io/trlinkhelper-docs/"
         webbrowser.open_new_tab(help_url)
     
     def log_message(self, message):
